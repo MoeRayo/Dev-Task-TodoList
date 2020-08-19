@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: inherit;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "list"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px auto 50px;
+  /* justify-content: center; */
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  /* text-decoration: double; */
+}
