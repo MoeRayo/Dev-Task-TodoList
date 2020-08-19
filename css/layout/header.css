@@ -1,7 +1,9 @@
 header {
   grid-area: header;
   padding: 3rem 2rem;
-  background-color: #200040;
+
+  background-color: hsl(0, 93%, 68%);
+
   color: #fff;
   text-align: center;
 }
@@ -14,28 +16,34 @@ h1 {
 
 input {
   height: 4rem;
-  padding: 1rem 0;
+  padding: 0 1rem;
   width: 45%;
-  background-color: #200040;
+  background: linear-gradient(135deg, hsl(0, 100%, 98%), hsl(0, 70%, 85%));
   border: none;
-  border-bottom: 3px solid #fff;
-  border-left: 3px solid #fff;
-  color: #fff;
+  border-bottom: 3px solid #413a3a91;
+  border-left: 3px solid #413a3a91;
+  color: #000;
 }
 
 input:focus-within {
-  background-color: #40007f;
+  background: linear-gradient(135deg, hsl(0, 100%, 98%), hsl(0, 70%, 85%));
   border-right: 3px dashed #fff;
   border-top: 3px solid #fff;
-  border-left: 3px dashed#fff;
-  padding-left: 0.5rem;
   font-size: 1rem;
 }
 
 header button {
   background-color: #fff;
-  padding: 0.5rem 1rem;
-  border: 2px solid #40007f;
+  height: 4rem;
+
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #413a3a91;
+  box-shadow: 10px 8px 9px #413a3a91;
+  border-radius: 5px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+}
+
+header button:hover {
+  background: linear-gradient(135deg, hsl(0, 100%, 98%), hsl(0, 70%, 85%));
 }
