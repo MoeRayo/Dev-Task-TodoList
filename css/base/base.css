@@ -24,14 +24,9 @@ body {
     "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 250px auto 50px;
-  /* justify-content: center; */
 }
 
 a,
 button {
   cursor: pointer;
-}
-
-a {
-  /* text-decoration: double; */
 }
