@@ -22,11 +22,16 @@
 
   main div {
     width: 100%;
+    padding: 1rem;
   }
 
   .logo {
     font-size: 2rem;
     top: 55px;
-    left: 10px;
+    left: 6px;
+  }
+
+  span {
+    bottom: 125px;
   }
 }
